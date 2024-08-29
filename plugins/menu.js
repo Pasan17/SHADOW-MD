@@ -14,13 +14,13 @@ let dec = `*✦ SHADOW MD MENU LIST ✦*
 
 > *╭──────────⚬➨*
 
-> *│👨🏻‍💻 SEARCH COMMANDS*
+> *│👨🏻‍💻 COMMANDS LIST*
 
 > *│   ───────*
 
     ❮𝗛𝗢𝗪 𝘁𝗼 𝗗𝗢𝗪𝗡𝗟𝗢𝗗❯     
 
-         *► .search*
+         *► .list*
 
          *▻Desc 📩* *-----==========-----*
 
@@ -58,12 +58,11 @@ let dec = `*✦ SHADOW MD MENU LIST ✦*
 
  *❪Type..❫*
 
- *❮❮ .search*
+ *❮❮ .list*
 
-> ►.search all how to download command 👑👨🏻‍💻
+> ►.list all how to download command 👑👨🏻‍💻
 
 > *➣ ᴏᴡɴᴇʀ : ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
-
 *╰───────────⚬➨*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4c8ad037112cb4836b863.jpg`},caption:dec},{quoted:mek});
