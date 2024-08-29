@@ -1,7 +1,7 @@
 const {cmd , commands} = require('../command')
 
 cmd({
-    pattern: "search",
+    pattern: "list",
     desc: "search the bot",
     category: "main",
     filename: __filename
@@ -57,8 +57,15 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 *🗃️Command : owner*
 *💨Decs : main owner ditels*
 *💆🏻‍♂️use : .owner*
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 
+*🗃️Command : shadow*
+*💨Desc : my shadow photos*
+*💆🏻‍♂️use : .shadow*
+
+*🗃️Command : settings*
+*💨Desc : how to settings edit bot*
+*💆🏻‍♂️use : .settings*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 *╰───────────⚬➨*
 
 `
