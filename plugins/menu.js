@@ -69,7 +69,7 @@ let dec = `*✦ SHADOW MD MENU LIST ✦*
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4c8ad037112cb4836b863.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from, { react: { text: '🗃️', key: mek.key }})
 await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/vipshadowmd/Voice/raw/main/SHADOW%20MD%20MENU.mp3' },
+            audio: { url: 'https://github.com/vipshadowmd/menu/raw/main/Shadow%20owner.js' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
