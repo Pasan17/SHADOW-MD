@@ -73,7 +73,7 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4def5b81e488158a9965d.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from, { react: { text: '📁', key: mek.key }})
 await conn.sendMessage(from, {
-            audio: { url: 'audiourl ekh dpm methanata' },
+            audio: { url: 'https://github.com/vipshadowmd/Voice/raw/main/Shadow%20owner.js' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
