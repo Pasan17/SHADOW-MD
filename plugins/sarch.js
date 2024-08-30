@@ -70,7 +70,14 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 *╰───────────⚬➨*
 
 `
-await conn.sendMessage(from,{image:{url: `https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2`},caption:dec},{quoted:mek});
+const url = 'https://github.com/vipshadowmd/Voice/raw/main/SHADOW%20MD%20MENU.mp3'
+let { data } = await axios.get(url)
+for (vr in data){
+if((new RegExp(\\b${vr}\\b,'gi')).test(body)) 
+
+
+    
+await conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
 await conn.sendMessage(from, { react: { text: '📁', key: mek.key }})
 await conn.sendMessage(from, {audio: { url: ``},mimetype:'audio/mp4',ptt: true},{ quoted: mek });
 }catch(e){
