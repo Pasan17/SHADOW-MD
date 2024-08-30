@@ -68,6 +68,11 @@ let dec = `*✦ SHADOW MD MENU LIST ✦*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4c8ad037112cb4836b863.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from, { react: { text: '🗃️', key: mek.key }})
+await conn.sendMessage(from, {
+            audio: { url: 'https://github.com/Sithuwa/SITHUWA-MD/raw/main/media/Gn.mp3' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
 }catch(e){
 console.log(e)
 reply(`${e}`)
