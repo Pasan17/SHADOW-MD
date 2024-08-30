@@ -4,6 +4,7 @@ cmd({
     pattern: "list",
     desc: "list the bot",
     category: "main",
+    react: "📁",
     filename: __filename
 },
 
