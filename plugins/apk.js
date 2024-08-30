@@ -1,6 +1,10 @@
+const {cmd , commands} = require('../command')
+
 cmd({
-    pattern: "dapk",
-    dontAddCommandList: true,
+    pattern: "apk",
+    desc: "apk the bot",
+    category: "main",
+    react: "✅",
     filename: __filename
 },
 async (conn, m, mek, { from, q, reply }) => {
