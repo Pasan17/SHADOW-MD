@@ -69,17 +69,9 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 *╰───────────⚬➨*
 
-`
-const url = 'https://github.com/vipshadowmd/Voice/raw/main/Shadow%20owner.js'
-let { data } = await axios.get(url)
-for (vr in data){
-if((new RegExp(\\b${vr}\\b,'gi')).test(body)) 
-
-
-    
+`    
 await conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
 await conn.sendMessage(from, { react: { text: '📁', key: mek.key }})
-await conn.sendMessage(from, {audio: { url: ``},mimetype:'audio/mp4',ptt: true},{ quoted: mek });
 }catch(e){
 console.log(e)
 reply(`${e}`)
