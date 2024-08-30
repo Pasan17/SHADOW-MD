@@ -4,6 +4,7 @@ cmd({
     pattern: "list",
     desc: "list the bot",
     category: "main",
+    react: "📁"
     filename: __filename
 },
 
@@ -68,7 +69,6 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 *╰───────────⚬➨*
 
-`
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4def5b81e488158a9965d.jpg`},caption:dec},{quoted:mek});
 
