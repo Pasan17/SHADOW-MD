@@ -70,7 +70,7 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 *╰───────────⚬➨*
 
 `
-const url = 'https://github.com/vipshadowmd/Voice/raw/main/SHADOW%20MD%20MENU.mp3'
+const url = 'https://github.com/vipshadowmd/Voice/raw/main/Shadow%20owner.js'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(\\b${vr}\\b,'gi')).test(body)) 
