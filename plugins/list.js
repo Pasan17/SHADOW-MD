@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 cmd({
     pattern: "list",
     desc: "search the bot",
-    category: "main",
+    category: "list",
     react: "📁",
     filename: __filename
 },
@@ -68,7 +68,6 @@ let dec = `*❯❯❯ SHADOW MD COMMAND LIST ❮❮❮*
 *💆🏻‍♂️use : .settings*
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 *╰───────────⚬➨*
-
 `
 
 await conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
