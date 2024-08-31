@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1 align="center">SHADOW-MD 6.O</h1>
+<h1 align="center">SHADOW-MD 2.0.1</h1>
      
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＳＨＡＤＯＷ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
