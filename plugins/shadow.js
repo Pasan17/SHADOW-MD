@@ -15,7 +15,11 @@ await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/83a24d93158b1e
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/79ce5b9162f89de69a134.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/0995554ab05f293e0400b.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/3aa139801daddb949fda6.jpg`},caption:dec},{quoted:mek});
-
+await conn.sendMessage(from, {
+            audio: { url: '///' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
 }catch(e){
 console.log(e)
 reply(`${e}`)
