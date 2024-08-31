@@ -1,13 +1,6 @@
 
 <div align="center">
 
-<h1 align="center">SHADOW-MD 2.0.1</h1>
-
-src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-
-<p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=33&pause=1000&color=5513F7&width=435&lines=SHADOW+MD+WHATSAPP+BOT" alt="Typing SVG" /></a>
-
      
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＳＨＡＤＯＷ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
