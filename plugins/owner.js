@@ -27,7 +27,7 @@ let dec = `*❮❮Hi brother 🫱🏻‍🫲🏻😻🤍*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7eba8a7c5f0d4d59a6419.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from, {
-            audio: { url: 'audiourl ekh dpm methanata' },
+            audio: { url: 'https://github.com/vipshadowmd/owner/raw/main/Chikibom' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
