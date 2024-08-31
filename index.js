@@ -142,7 +142,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //================================================
 if(senderNumber.includes("94767910958")){
 if(isReact) return
-m.react("🔖")
+m.react("👑")
 }
 //=====================✓
 
