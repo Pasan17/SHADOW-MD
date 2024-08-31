@@ -8,9 +8,9 @@
      
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＳＨＡＤＯＷ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 
-#𝗩𝗘𝗥𝗦𝗜𝗢𝗡 2.0.1 𝗨𝗣 𝗗𝗔𝗧𝗘 𝗖𝗢𝗠𝗜𝗡𝗚 𝗭𝗢𝗡𝗘..... 
+#𝗩𝗘𝗥𝗦𝗜𝗢𝗡 2.1.0 𝗨𝗣 𝗗𝗔𝗧𝗘 
 
-𝗣𝗜𝗥 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗 ✅💻🔰
+➤𝗣𝗜𝗥 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗❮❮❮
 
 <a href="https://pair-web-public.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
@@ -23,7 +23,7 @@
 
 <hr>
 
-ＣＲＥＡＴＥＤ ＢＹ Lakshan damayantha 👨‍💻
+CREDIT BY Lakshan damayantha 👨‍💻
 
 
 ## HOW TO DEPLOY 𝚂𝙷𝙰𝙳𝙾𝚆 - ＭＤ 👨‍💻
