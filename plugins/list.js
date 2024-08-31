@@ -1,9 +1,9 @@
 const {cmd , commands} = require('../command')
 
 cmd({
-    pattern: "menu",
-    desc: "menu the bot",
-    category: "menu",
+    pattern: "list",
+    desc: "list the bot",
+    category: "main",
     react: "📁"
     filename: __filename
 },
@@ -64,7 +64,7 @@ let dec = `*❯❯ SHADOW MD COMMAND LIST ❮❮*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/5f0335bebb60421970e8b.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from, {
-            audio: { url: '///' },
+            audio: { url: 'https://github.com/vipshadowmd/Menujs/raw/main/PTT-20240828-WA0235.m4a' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
