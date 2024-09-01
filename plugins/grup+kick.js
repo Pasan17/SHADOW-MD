@@ -21,7 +21,7 @@ if (!user) return reply(mg.nouserforkick);
 await conn.groupParticipantsUpdate(m.chat, [user], "remove");
 reply(mg.userremoved);
 } catch (e) {
-reply('*Error !!*')
+reply('*successful_✓✓*')
 l(e)
 }
 })
