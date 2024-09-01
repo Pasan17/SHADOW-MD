@@ -1,6 +1,5 @@
 const config = require('../config')
 const { cmd, commands } = require('../command')
-)
 cmd({
     pattern: "add",
     react: "🔆",
