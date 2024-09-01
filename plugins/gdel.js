@@ -1,13 +1,13 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
-pattern: "del",
-react: "❌",
-alias: [","],
-desc: "delete message",
-category: "group",
-use: '.del',
-filename: __filename
+     pattern: "del",
+     react: "❌",
+     alias: [","],
+     desc: "delete message",
+     category: "group",
+     use: '.del',
+     filename: __filename
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 if (!isOwner ||  !isAdmins) return;
