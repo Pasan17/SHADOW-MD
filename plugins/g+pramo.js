@@ -18,7 +18,7 @@ if(!isOwner ||  !isAdmins )return;
         if (!users) return reply(mg.nouserforpromote);
         await conn.groupParticipantsUpdate(m.chat, [users], "promote");
 } catch (e) {
-reply('*Error !!*')
+reply('✅')
 l(e)
 }
 })
