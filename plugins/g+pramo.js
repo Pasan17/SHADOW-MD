@@ -17,7 +17,7 @@ if(!isOwner ||  !isAdmins )return;
         if (!users) return reply(mg.nouserfordemote);
         await conn.groupParticipantsUpdate(m.chat, [users], "demote");
 } catch (e) {
-reply('*Error !!*')
+reply('*✓✓*')
 l(e)
 }
 })
