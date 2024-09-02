@@ -26,12 +26,12 @@ let des = `⚡𝗛𝗘𝗟𝗟𝗢𝗪 ┇ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ⚡
 > *➣ ᴠᴇʀꜱɪᴏɴ : 2.0.1*
 *┇Always smile and life will be beautiful💗*
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*✨`
-return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
 await conn.sendMessage(from, {
             audio: { url: 'https://github.com/vipshadowmd/Helohelo/raw/main/PTT-20240831-WA0341.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
+return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
