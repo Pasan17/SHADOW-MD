@@ -1,23 +1,25 @@
 const config = require('../config')
 const { cmd, commands } = require('../command')
 cmd({
-    pattern: "demote",
-    react: "⛔",
-    desc: "Provides admin role to replied/quoted user",
+    pattern: "promote",
+    desc: "Promote a member to admin.",
     category: "group",
-    filename: __filename,
-    use: '<quote|reply|number>',
+    react: "🔖",
+    filename: __filename
 },
-      async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-if(!isOwner ||  !isAdmins )return;
-         try {     if (!m.isGroup) return reply(mg.onlygroup);
-            if (!isBotAdmins) return reply(mg.needbotadmins);
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!isGroup) return reply('This command can only be used in a group.')
+        if (!isBotAdmins) return reply('Bot must be an admin to use this command.')
+        if (!isAdmins) return reply('You must be an admin to use this command.')
 
-        let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? citel.quoted.sender : q.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
-        if (!users) return reply(mg.nouserfordemote);
-        await conn.groupParticipantsUpdate(m.chat, [users], "demote");
-} catch (e) {
-reply('*✓✓*')
-l(e)
-}
+        const user = m.mentioned[0] || m.quoted?.sender
+        if (!user) return reply('Please tag or reply to a user to promote⚡⚡.')
+
+        await conn.groupParticipantsUpdate(from, [user], 'promote')
+        await reply(`@${user.split('@')[0]} has been promoted to admin.`, { mentions: [user] })
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
 })
