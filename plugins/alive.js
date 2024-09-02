@@ -28,7 +28,7 @@ let des = `⚡𝗛𝗘𝗟𝗟𝗢𝗪 ┇ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ⚡
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʜᴀᴅᴏᴡ-ᴍᴅ*✨`
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/357b75726739a8b9c68de.jpg`},caption: des},{quoted: mek})
 await conn.sendMessage(from, {
-            audio: { url: 'audiourl ekh dpm methanata' },
+            audio: { url: 'https://github.com/vipshadowmd/Helohelo/raw/main/PTT-20240831-WA0341.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
