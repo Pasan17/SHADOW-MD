@@ -14,7 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         if (!isAdmins) return reply('You must be an admin to use this command.')
 
         const goodbye = q
-        if (!goodbye) return reply('Please provide a goodbye message.')
+        if (!goodbye) return reply('𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗯𝗿𝗼 𝗶 𝗺𝗶𝘀 𝘆𝗼𝘂 𝗽𝗹𝗲𝘀𝗲 𝗰𝗼𝗺𝗲 𝗯𝗮𝗰𝗸 😪💗')
 
         await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: goodbye })
         await reply('Goodbye message has been set.')
